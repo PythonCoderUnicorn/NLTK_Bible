@@ -9,6 +9,8 @@ followed by the read() method. Suppose you have a file document.txt,
 you can load its contents like this:
 
 <code> f = open('document.txt')</code>
+
+
 <code> raw = f.read() </code>
 
 open('document.txt', 'rU') — 'r' means to open the file for reading (the default), and 'U' stands for "Universal", 
